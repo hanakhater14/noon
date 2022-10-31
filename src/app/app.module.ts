@@ -14,6 +14,8 @@ import { SwiperModule } from "swiper/angular";
 import { CategoryRowComponent } from './category-row/category-row.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HttpClientModule } from  '@angular/common/http';
+import { HomePageItemComponent } from './home-page-item/home-page-item.component';
+import { NewMenuComponent } from './new-menu/new-menu.component';
 
 
 
@@ -24,7 +26,9 @@ import { HttpClientModule } from  '@angular/common/http';
     MenuBarComponent,
     AdsBannerComponent,
     CategoryRowComponent,
-    HomePageComponent
+    HomePageComponent,
+    HomePageItemComponent,
+    NewMenuComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { product } from 'src/models/product';
+import { product } from 'src/models/product.d';
 import { HttpService } from '../services/http.service';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y ,Autoplay} from 'swiper';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y,Autoplay]);
@@ -17,6 +17,7 @@ export class HomePageComponent implements OnInit {
     this.ProductService.GetAllProducts().subscribe(data=>{
       this.products=data;
     })
+    
   }
 
 }

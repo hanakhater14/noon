@@ -1,50 +1,7 @@
-
-div{ 
-padding-top: 5px;
+.navbar-color{
+  background-color:#feee00;
+  
 }
-.search{
-    width: 300%;
-    height: 15px;
-    padding: 12px;
-    border: 0px;
-    background-color: white;
-    border-radius: 5px;
+.navbar{
+  padding: 0;
 }
-.flex-container {
-    background-color:#feee00;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin:0%;
-  }
-  a{
-    text-decoration: none;
-
-  }
-  a:hover {
-    color:rgb(168, 167, 167);
-    text-decoration: none;
-  }
- .flag{
-    margin-left: 0;
-    float: right;
-    max-width: 25px;
-    height: auto
- }
-.spanBold{
-    font-weight: bold;
-    font-size: larger;
-
-}
-span{
-    font-size: larger;  
-
-}
-.noonLogo{
-    margin: 0%;
-    float: right;
-}
-.location{
-    margin-top: 0%;
-    margin-left: 30%;
-} 

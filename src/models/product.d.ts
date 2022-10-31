@@ -5,4 +5,7 @@ export class product{
     priceAfterDiscount: number;
     discount:number;
     url: string;
+    onDiscount:boolean;
+    bestSeller:boolean;
+    rate:number;
 }

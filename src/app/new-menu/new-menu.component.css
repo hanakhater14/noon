@@ -1,0 +1,16 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu {
+    width: 1690px;
+    height: 400px;
+    position: fixed; 
+}
+.d-flex{
+    margin: 0;
+    padding: 0;
+} 
+.flex-row {
+    margin: 0;
+    padding: 0;
+}

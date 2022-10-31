@@ -9,6 +9,6 @@ export class HttpService {
 
   constructor(private http:HttpClient) { }
   GetAllProducts(){
-    return this.http.get<product[]>('https://api.npoint.io/830a2004ec3dd7ff2773');
+    return this.http.get<product[]>('https://api.npoint.io/ab335406c37145f0156c');
     }
 }
